@@ -1,49 +1,4 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
-import { Menu } from "lucide-react";
-
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <nav className="fixed top-0 left-0 w-full bg-white bg-opacity-30 backdrop-blur-lg text-white font-montserrat py-4 px-6 flex items-center justify-between z-50 shadow-md">
-      <h1 className="text-2xl font-bold">Hardik Web Works</h1>
-      <div className="hidden md:flex space-x-6">
-        <a href="#home" className="hover:text-blue-400 transition">
-          Home
-        </a>
-        <a href="#services" className="hover:text-blue-400 transition">
-          Services
-        </a>
-        <a href="#about" className="hover:text-blue-400 transition">
-          About
-        </a>
-        <a href="#contact" className="hover:text-blue-400 transition">
-          Contact
-        </a>
-      </div>
-      <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-        <Menu size={28} />
-      </button>
-      {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white bg-opacity-30 backdrop-blur-lg flex flex-col items-center py-4 md:hidden">
-          <a href="#home" className="py-2 hover:text-blue-400 transition">
-            Home
-          </a>
-          <a href="#services" className="py-2 hover:text-blue-400 transition">
-            Services
-          </a>
-          <a href="#about" className="py-2 hover:text-blue-400 transition">
-            About
-          </a>
-          <a href="#contact" className="py-2 hover:text-blue-400 transition">
-            Contact
-          </a>
-        </div>
-      )}
-    </nav>
-  );
-};
 
 const HeroSection = () => {
   return (
@@ -51,7 +6,6 @@ const HeroSection = () => {
       id="home"
       className="relative h-screen w-full bg-custom-gradient flex items-center justify-center overflow-hidden px-6 md:px-16"
     >
-      <Navbar />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-30" />
       {/* Hero Content */}
       <div className="relative flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto text-white">
