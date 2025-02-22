@@ -3,40 +3,40 @@ import { Marquee } from "./magicui/marquee";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Trd. Ind",
+    username: "@Dhruv",
+    body: "Your Work is amazing. I love it.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
+    name: "Delta x",
+    username: "@Mr. Leo",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "https://avatar.vercel.sh/jill",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Mr.Ravi",
+    username: "@ravi22",
+    body: "This i truly wonderful and the prices are very reasonable.",
     img: "https://avatar.vercel.sh/john",
   },
   {
-    name: "Jane",
-    username: "@jane",
+    name: "Chat Sphere",
+    username: "@Yagnesh",
     body: "This is beyond incredible. Never seen anything like it.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "Absolutely breathtaking. A must-have experience!",
+    name: "Delta x",
+    username: "@sxion.8",
+    body: "Absolutely Amazing Work!",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "Words can't describe how amazing this is. Highly recommended!",
-    img: "https://avatar.vercel.sh/james",
+    name: "Trd. Ind",
+    username: "@Dhruv",
+    body: "Your Work is amazing. I love it.",
+    img: "https://avatar.vercel.sh/jack",
   },
 ];
 

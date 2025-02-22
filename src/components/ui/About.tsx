@@ -10,14 +10,14 @@ const About = () => {
     <motion.div className=" w-full bg-custom-gradient">
       <motion.h1
         style={{ scale, opacity }}
-        className="text-white font-semibold font-montserrat  py-10 text-3xl text-center"
+        className="text-white font-semibold font-montserrat  py-10 md:text-3xl text-center"
       >
         Our Offerings ~
       </motion.h1>
       <FeaturesSectionDemo />
       <motion.h1
         style={{ scale, opacity }}
-        className="text-white font-semibold font-montserrat  py-10 text-3xl text-center"
+        className="text-white font-semibold font-montserrat  py-10 md:text-3xl text-center"
       >
         What Our Client's Think ~
       </motion.h1>
